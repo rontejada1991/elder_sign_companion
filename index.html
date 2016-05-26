@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Elder Sign Investigator Tracker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript" src="assets/js/lib/jquery-2.2.3.min.js"></script>
+  <script type="text/javascript" src="assets/js/lib/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/font-awesome-4.6.3/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Oleo+Script:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div class="container">
+    <h1 id="title" class="jumbotron">Investigator's Handbook</h1>
+    <nav class="navbar">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li>
+              <select id="investigator_select" class="form-control">
+                <option disabled selected>Select Investigator</option>
+              </select>
+            </li>
+            <li><button id="random_investigator" class="btn btn-primary">Random Investigator</button></li>
+            <li><button id="reset_button" class="btn btn-danger">New Game</button></li>
+            <li><button href="#" id="about_button" class="btn btn-info">About</button></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div id="investigators" class="row"></div>
+  <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
