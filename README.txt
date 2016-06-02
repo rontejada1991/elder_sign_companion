@@ -21,3 +21,4 @@ Upcoming Features
 6/2
 - Added icons next to the sanity, stamina, and clues values for a better visual representation
 - Added better UI responsiveness by adding css properties when sanity, stamina, clues, remove investigator buttons are clicked
+- Fixed the Investigator Card Anatomy so that its content does not overflow on smaller devices
