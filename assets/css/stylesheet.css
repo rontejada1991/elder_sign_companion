@@ -33,7 +33,7 @@ body .name, body .profession {
 
 .sanity, .stamina, .clues {
   font-size: 2.5em;
-  margin: 0 5px;
+  margin-right: 3px;
   text-shadow: 1px 1px black;
 }
 
@@ -49,21 +49,53 @@ body .name, body .profession {
   color: brown;
 }
 
-.fa-times, .fa-plus-square, .fa-minus-square {
-  margin: 0 3px;
+i.fa-lg {
+  vertical-align: 0;
 }
 
-.fa-times.fa-lg {
-  color: gray;
+.fa-times, .fa-plus-square, .fa-minus-square {
+  margin-left: 4px;
+}
+
+.fa-heartbeat, .fa-eye, .fa-search {
+  margin-right: 8px;
+}
+
+.fa-heartbeat {
+  color: #ffc0cb;
+}
+
+.fa-eye {
+  color: #add8e6;
+}
+
+.fa-search {
+  color: brown;
+}
+
+.fa-times {
+  color: #808080;
   margin-left: 10px;
 }
 
+.fa-times:active {
+  color: #404040;
+}
+
 .fa-plus-square {
-  color: green;
+  color: #00ff00;
+}
+
+.fa-plus-square:active {
+  color: #008000;
 }
 
 .fa-minus-square {
-  color: red;
+  color: #ff0000;
+}
+
+.fa-minus-square:active {
+  color: #800000;
 }
 
 .empty {
@@ -71,8 +103,9 @@ body .name, body .profession {
 }
 
 .investigator {
-  margin-bottom: 15px;
-  height: 200px;
+  margin-bottom: 20px;
+  /*height: 300px;*/
+  /*width: 300px;*/
 }
 
 #investigators {

@@ -17,3 +17,7 @@ Upcoming Features
 - The Investigator Card Anatomy section in the about div now looks closer to those from used within the app
 - Fixed the Investigator Card Anatomy so that its content does not overflow on smaller devices
 - Added styling to about div
+
+6/2
+- Added icons next to the sanity, stamina, and clues values for a better visual representation
+- Added better UI responsiveness by adding css properties when sanity, stamina, clues, remove investigator buttons are clicked

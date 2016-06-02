@@ -61,11 +61,11 @@ $(function() {
   });
 
   $("#investigators").on("click", ".fa-plus-square", function() {
-    changeValue($(this).prev(), true);
+    changeValue($(this).prev().prev(), true);
   });
 
   $("#investigators").on("click", ".fa-minus-square", function() {
-    changeValue($(this).prev().prev(), false);
+    changeValue($(this).prev().prev().prev(), false);
   });
 
   $("#random_investigator").on("click", function() {
@@ -161,11 +161,11 @@ function generateInvestigatorDiv() {
     "<div class='investigator empty col-xs-6 col-sm-6 col-md-4 col-lg-3'>" +
       "<span id='investigator_num'>" + investNum + ". </span><span class='name'>Name</span>" +
         "<i class='fa fa-times fa-lg' aria-hidden='true'></i><br>" +
-      "<span class='sanity'>Sanity</span><i class='fa fa-plus-square fa-2x' aria-hidden='true'></i>" + 
+      "<span class='sanity'>Sanity</span><i class='fa fa-eye fa-2x' aria-hidden='true'></i><i class='fa fa-plus-square fa-2x' aria-hidden='true'></i>" + 
         "<i class='fa fa-minus-square fa-2x' aria-hidden='true'></i><br>" +
-      "<span class='stamina'>Stamina</span><i class='fa fa-plus-square fa-2x' aria-hidden='true'></i>" + 
+      "<span class='stamina'>Stamina</span><i class='fa fa-heartbeat fa-2x' aria-hidden='true'></i><i class='fa fa-plus-square fa-2x' aria-hidden='true'></i>" + 
         "<i class='fa fa-minus-square fa-2x' aria-hidden='true'></i><br>" +
-      "<span class='clues'>Clues</span><i class='fa fa-plus-square fa-2x' aria-hidden='true'></i>" + 
+      "<span class='clues'>Clues</span><i class='fa fa-search fa-2x' aria-hidden='true'></i></i><i class='fa fa-plus-square fa-2x' aria-hidden='true'></i>" + 
         "<i class='fa fa-minus-square fa-2x' aria-hidden='true'></i>" +
     "</div>");
   }
