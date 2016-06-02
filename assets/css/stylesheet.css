@@ -123,3 +123,14 @@ div.container-fluid {
     margin-left: 20px;
   }
 }
+
+.hidden {
+  display: none;
+}
+
+#example_investigator {
+  background: #000000;
+  background: -webkit-linear-gradient(to left, #000000 , #434343);
+  background: linear-gradient(to left, #000000 , #434343);
+  padding: 5px;
+}

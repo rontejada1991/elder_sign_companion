@@ -92,39 +92,7 @@ $(function() {
   });
 
   $("#about_button").on("click", function() {
-    var content = 
-      "<div id='about' class='alert alert-warning alert-dismissible' role='alert'>" +
-        "<button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>" +
-        "The Investigator\'s Handbook is a web application designed to accompany the popular tabletop board game \"Elder Sign\" by Fantasy Flight Games.<br><br>" +
-        "<strong>This app keeps track of various components - </strong>" +
-        "<ul>" +
-          "<li>Each player's sanity, stamina, and clues</li>" +
-          "<li>Player number when assigning new investigators</li>" +
-          "<li>Investigators that have been used already</li>" +
-          "<li>The number of total Investigators</li>" +
-        "</ul>" +
-        "<br>" +
-        "<strong>Investigator Card Anatomy - </strong><br>" +
-        "<div class='investigator block-element>" +
-          "<span id='investigator_num'>Player Number. </span><span><strong>Investigator Name</strong></span>" +
-            "<i class='fa fa-times fa-lg' aria-hidden='true'></i> (Remove Investigator)<br>" +
-          "<span class='sanity'>Sanity</span><i class='fa fa-plus-square fa-2x' aria-hidden='true'></i>" +
-            "<i class='fa fa-minus-square fa-2x' aria-hidden='true'></i> (Increase/Decrease Sanity by 1)<br>" +
-          "<span class='stamina'>Stamina</span><i class='fa fa-plus-square fa-2x' aria-hidden='true'></i>" + 
-            "<i class='fa fa-minus-square fa-2x' aria-hidden='true'></i> (Increase/Decrease Stamina by 1)<br>" +
-          "<span class='clues'>Clues</span><i class='fa fa-plus-square fa-2x' aria-hidden='true'></i>" + 
-            "<i class='fa fa-minus-square fa-2x' aria-hidden='true'></i> (Increase/Decrease Clues by 1)" +
-        "</div>" +
-        "<br>" +
-        "Created By Ronald Tejada" +
-      "</div>";
-
-    // If it exists already, then dont add another alert
-    if ($("#about").length > 0) {
-      return;
-    } else {
-      $("nav.navbar").after(content);
-    }
+    $("#about").toggleClass("hidden");
   });
 
 });

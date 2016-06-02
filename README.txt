@@ -11,3 +11,7 @@ Features Available
 Upcoming Features
 - When an investagors sanity or stamina reaches 0, a confirmation should pop-up, asking the player if the app should remove him/her.
 - Support for the Ancient Ones. Similar setup to the investigators, instead focusing on Doom Counters and Elder Signs.
+
+6/1
+- Clicking the About button will not toggle our about div between visible and hidden.
+- The Investigator Card Anatomy section in the about div now looks closer to those from used within the app
