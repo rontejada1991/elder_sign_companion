@@ -71,7 +71,7 @@ body .name, body .profession {
 }
 
 .investigator {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   height: 200px;
 }
 
@@ -102,7 +102,9 @@ h1.jumbotron {
   margin-bottom: 15px;
 }
 
-nav.navbar {}
+nav.navbar {
+  margin-bottom: 15px;
+}
 
 div.container-fluid {
   padding-left: 0;
@@ -133,4 +135,18 @@ div.container-fluid {
   background: -webkit-linear-gradient(to left, #000000 , #434343);
   background: linear-gradient(to left, #000000 , #434343);
   padding: 5px;
+  margin-bottom: 20px;
+}
+
+#about {
+  background: #eee;
+  border: 5px solid #5bc0de;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 15px
+}
+
+.instructions {
+  color: yellow;
+  font-style: italic;
 }

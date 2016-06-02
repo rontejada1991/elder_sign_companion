@@ -15,3 +15,5 @@ Upcoming Features
 6/1
 - Clicking the About button will not toggle our about div between visible and hidden.
 - The Investigator Card Anatomy section in the about div now looks closer to those from used within the app
+- Fixed the Investigator Card Anatomy so that its content does not overflow on smaller devices
+- Added styling to about div
